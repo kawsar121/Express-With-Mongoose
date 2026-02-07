@@ -15,9 +15,12 @@ Ans : db.test.find({age: {$eq : 12}}); je data gular age 12 shudu shegula dekhab
 **5. Condittion Cheek jemon age : 12; jara ache shudu tader **bade** baki data Dao**
 Ans : db.test.find({age: {$ne : 12}}); je data gular age 12 shegula sara bakigula dekhabe.
 
+**Waht is gt** 
+Ans : Same Bhabe aro che **gt** mane gater than 30:gt tahle 30er uporer gula show hobe.        
 
 
-
+**Waht is gte** 
+Ans : **gte** mane 30:gte tahle 30er shoman and er uporer gula nibe
 
 
 
