@@ -8,3 +8,20 @@ Ans : db.test.find({gender: "male"}, {gender:1}); Ekhane 1 mane true tai shudu g
 
 **3. Search MongoDB Oparetors**
 Ans : MongoDB Oparetors > Queary and projection Oparetors > Comparisom Query Oparetors
+
+**4. Condittion Cheek jemon age : 12; jara ache shudu tader data Dao**
+Ans : db.test.find({age: {$eq : 12}}); je data gular age 12 shudu shegula dekhabe
+
+**5. Condittion Cheek jemon age : 12; jara ache shudu tader **bade** baki data Dao**
+Ans : db.test.find({age: {$ne : 12}}); je data gular age 12 shegula sara bakigula dekhabe.
+
+
+
+
+
+
+
+
+
+
+
