@@ -25,7 +25,8 @@ Ans : **gte** mane 30:gte tahle 30er shoman and er uporer gula nibe
 **4. Akta range onujaye Condittion Cheek jemon age 18 thek 30**
 Ans : db.test.find({age: {$gte: 18, $lte: 30}}, {age:1});
 
-
+**$Set**
+Ans : $set use korle data replece korbe new data boshbe 
 
 
 
