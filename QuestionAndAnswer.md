@@ -29,4 +29,5 @@ Ans : db.test.find({age: {$gte: 18, $lte: 30}}, {age:1});
 Ans : $set use korle data replece korbe new data boshbe 
 
 
-
+**$addToSet**
+Ans : eta use hobe tokhon jokhon chai ager data thakbe and new data o add korbo 
